@@ -1,4 +1,4 @@
-<h1>INSERT DATA TO DATABASE</h1> 
+<h1>Welcome to ANT Toys</h1> 
 <h2>Enter data into table</h2> 
 <ul> 
  <form name="InsertData" action="InsertData.php" method="POST"> 
@@ -19,8 +19,8 @@ if (empty(getenv("DATABASE_URL")))
  
  
  
-  "host=ec2-54-225-72-238.compute-1.amazonaws.com;port=5432;user=zyspzjwbrlxfnk; 
-  password=95402f2fcd09500f7ad877a328cb24cb0ac00800666b;dbname=d7f8iof0djq8lo", 
+  "ec2-54-86-170-8.compute-1.amazonaws.com;port=5432;user=fgfjvddasygorg; 
+  password=054f935ebb5384f6eaa169ef96ff3d0768cfeb5918139bd588d885556a997c02;dbname=d935q1p1jmdqtl", 
      $db["host"], 
      $db["port"], 
      $db["user"], 
